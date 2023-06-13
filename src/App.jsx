@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from './sections/navbar/NavBar';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
