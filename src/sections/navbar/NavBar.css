@@ -23,6 +23,10 @@ nav {
     overflow: hidden;
 }
 
+.nav__logo img {
+    width: 2.5rem;
+}
+
 .nav__menu {
     display: flex;
     gap: 3.5rem;
