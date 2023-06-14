@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Card from '../../components/Card';
-import {AiOutlinePlus, AIOutlineMinus, AiOutlineMinus} from 'react-icons/ai'
+import {AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
 
 const FAQ = ({faq}) => {
     const [showAnswer, setShowAnswer] = useState(false);
