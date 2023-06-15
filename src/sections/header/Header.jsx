@@ -1,19 +1,26 @@
+import { useEffect } from 'react'
 import HeaderImage from '../../assets/header.jpg'
 import data from './data'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './Header.css'
 
 const Header = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    }, [])
+
     return (
         <header id="header">
             <div className="container header__container">
-                <div className="header__profile">
+                <div className="header__profile" data-aos='fade-in'>
                     <img src={HeaderImage} alt="Header Portrait" />
                 </div>
-                <h3>Stevie Lopez</h3>
-                <p>
+                <h3 data-aos='fade-up'>Stevie Lopez</h3>
+                <p data-aos='fade-up'>
                 With a strong background as a teacher specializing in mathematics, I transitioned into software engineering with a focus on back-end development. Leveraging my experience in education, I bring a unique perspective to my team, enabling me to tackle problems and design solutions that optimize learning experiences, streamline processes, and enhance accessibility to all users.
                 </p>
-                <div className="header__cta">
+                <div className="header__cta" data-aos='fade-up'>
                     <a href="#contact" className='btn primary'>Let's Talk</a>
                     <a href="#portfolio" className='btn light'>My Work</a>
                 </div>
