@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import App from './App';
+import { ModalProvider } from './context/Modal-Context';
+// import { ThemeProvider } from './context/theme-context';
 import './index.css'
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
+
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(
+    // <ThemeProvider>
+    <ModalProvider>
+        <App/>
+    </ModalProvider>
+    // </ThemeProvider>
 );
