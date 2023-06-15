@@ -2,10 +2,10 @@ import React from 'react';
 import NavBar from './sections/navbar/NavBar';
 import Header from './sections/header/Header';
 import About from './sections/about/About';
-import Services from './sections/services/Services';
+import Skills from './sections/skills/Skills';
 import Portfolio from './sections/portfolio/Portfolio';
-import Testimonials from './sections/testimonials/Testimonials';
-import Faqs from './sections/faqs/Faqs';
+// import Testimonials from './sections/testimonials/Testimonials';
+// import Journeys from './sections/journey/Journeys';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
@@ -54,10 +54,10 @@ const App = () => {
         <NavBar/>
         <Header/>
         <About/>
-        <Services/>
+        <Skills/>
         <Portfolio/>
-        <Testimonials/>
-        <Faqs/>
+        {/* <Testimonials/> */}
+        {/* <Journeys/> */}
         <Contact/>
         <Footer/>
         <Theme/>

@@ -17,8 +17,8 @@ footer .nav__menu {
 }
 
 .footer__socials a {
-    background: var(--color-black);
-    color: var(--color-white);
+    background: var(--color-white);
+    color: var(--color-black);
     padding: 0.6rem;
     border-radius: var(--border-radius-3);
 }

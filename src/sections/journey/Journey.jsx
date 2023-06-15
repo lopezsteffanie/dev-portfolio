@@ -2,20 +2,20 @@ import React, { useState } from 'react'
 import Card from '../../components/Card';
 import {AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
 
-const FAQ = ({faq}) => {
+const Journey = ({journey}) => {
     const [showAnswer, setShowAnswer] = useState(false);
 
     return (
-        <Card className="faq" onClick={() => setShowAnswer(prev => !prev)}>
+        <Card className="journey" onClick={() => setShowAnswer(prev => !prev)}>
             <div>
-                <h5 className='faq__question'>{faq.question}</h5>
-                <button className='faq__icon'>
+                <h5 className='journey__question'>{journey.question}</h5>
+                <button className='journey__icon'>
                     {showAnswer ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </button>
             </div>
-            {showAnswer && <p className='faq__answer'>{faq.answer}</p>}
+            {showAnswer && <p className='journey__answer'>{journey.answer}</p>}
         </Card>
     )
 }
 
-export default FAQ
+export default Journey

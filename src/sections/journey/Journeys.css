@@ -1,33 +1,37 @@
-.faqs__container {
+.journeys__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem 4rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
     align-items: start;
 }
 
-.card.faq:hover {
+.card.journey:hover {
     cursor: pointer;
     background: var(--color-white);
 }
 
-.faw > div {
+.card.journey:hover h5 {
+    color: var(--color-primary);
+}
+
+.journey > div {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
 }
 
-.faq h5 {
+.journey h5 {
     line-height: 1.4;
 }
 
-.faq__icon {
+.journey__icon {
     font-size: 1.2rem;
     color: var(--color-black);
     background: transparent;
 }
 
-.faq__answer {
+.journey__answer {
     margin-top: 1rem;
     opacity: 0;
     animation: animateAnswer 500ms ease-in forwards;
@@ -39,17 +43,9 @@
     }
 }
 
-/* MEDIA QUERIES (tablets) */
-@media screen and (max-width: 1024px) {
-    .faqs__container {
-        grid-template-columns: 1fr;
-    }
-}
-
-
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-    .faq__container {
+    .journey__container {
         gap: 1rem;
     }
 }

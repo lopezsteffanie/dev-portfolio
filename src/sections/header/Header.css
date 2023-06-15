@@ -21,8 +21,8 @@ header {
 }
 
 .header__profile img {
-    width: 18rem;
-    height: 22rem;
+    width: 20rem;
+    height: 22em;
 }
 
 .header__container p {
@@ -78,7 +78,7 @@ header {
         max-height: 35vh;
     }
     .header__profile img {
-        width: 14rem;
+        width: 15rem;
         height: 17rem;
     }
 

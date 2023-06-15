@@ -1,13 +1,13 @@
 import data from './data'
 import Card from '../../components/Card'
-import './Services.css'
+import './Skills.css'
 
-const Services = () => {
+const Skills = () => {
     return (
-        <section id="services">
-            <h2>My Services</h2>
-            <p>I give you the best in all the services below</p>
-            <div className="container services__container" data-aos='fade-up'>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>In the ever-evolving landscape of web development, staying ahead requires a diverse and up-to-date skill set. My portfolio showcases a comprehensive array of skills and technologies that I have acquired and mastered throughout my journey as a web developer. From front-end to back-end, databases to deployment, I bring a wealth of expertise to the table.</p>
+            <div className="container skills__container" data-aos='fade-up'>
                 {
                     data.map(item => (
                         <Card key={item.id} className="service light">
@@ -24,4 +24,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Skills
