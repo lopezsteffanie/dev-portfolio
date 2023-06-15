@@ -8,12 +8,17 @@ const Journey = ({journey}) => {
     return (
         <Card className="journey" onClick={() => setShowAnswer(prev => !prev)}>
             <div>
-                <h5 className='journey__question'>{journey.question}</h5>
+                <h5 className='journey__topic'>{journey.topic}</h5>
                 <button className='journey__icon'>
                     {showAnswer ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </button>
             </div>
-            {showAnswer && <p className='journey__answer'>{journey.answer}</p>}
+            {showAnswer &&
+                <div className='journey__p'>
+                    <p>{journey.p1}</p>
+                    <p>{journey.p2}</p>
+                    <p>{journey.p3}</p>
+                </div>}
         </Card>
     )
 }

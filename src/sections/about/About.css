@@ -1,7 +1,7 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 53%;
-    gap: 12%
+    grid-template-columns: 35% 70%;
+    gap: 8%;
 }
 
 .about__portrait img {
