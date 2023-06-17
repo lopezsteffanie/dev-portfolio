@@ -1,6 +1,7 @@
-import data from './data'
 import Card from '../../components/Card'
 import './Skills.css'
+import data from './data'
+import Marquee from 'react-fast-marquee'
 
 const Skills = () => {
     return (
@@ -11,7 +12,9 @@ const Skills = () => {
                 {
                     data.map(item => (
                         <Card key={item.id} className="service light">
-                            <div className="service__icon">{item.icon}</div>
+                            <div className="service__icon__container">
+                                <div className="service__icon">{item.icon}</div>
+                            </div>
                             <div className="service__details">
                                 <h4>{item.title}</h4>
                                 <p>{item.desc}</p>

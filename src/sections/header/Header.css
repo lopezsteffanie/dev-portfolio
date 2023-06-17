@@ -34,7 +34,13 @@ header {
 .header__cta {
     display: flex;
     align-items: center;
-    gap: 1.2rem;
+    gap: 2rem;
+}
+
+.header__cta a {
+    width: 10rem;
+    height: 2.7rem;
+    text-align: center;
 }
 
 .header__socials {
