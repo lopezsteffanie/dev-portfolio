@@ -1,94 +1,44 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image1 from '../../assets/project1.png'
+import Image2 from '../../assets/project2.png'
+import Image3 from '../../assets/project3.png'
+import Image4 from '../../assets/project4.png'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "React Portfolio",
+        desc: "A portfolio website to showcase my projects.",
+        demo: 'https://lopezsteffanie.github.io/dev-portfolio/',
+        github: 'https://github.com/lopezsteffanie/dev-portfolio'
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'game dev',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Gnome-agotchi",
+        desc: "A virtual pet simulator game where you take care of a gnome from birth to death.",
+        demo: 'https://stevie-codes-it.itch.io/gnome-agotchi',
+        github: 'https://github.com/lopezsteffanie/Gnome-agotchi'
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'fullstack',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Inspiration Board",
+        desc: "Collaborated with a four-person team to design and develop an interactive inspirational message board web app",
+        demo: 'https://team-euphoria-front-end.herokuapp.com/',
+        github: 'https://github.com/lopezsteffanie/front-end-inspiration-board'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'fullstack',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Weather Report",
+        desc: "A weather app using a location and weather API to display the weather in your city of choice",
+        demo: 'https://lopezsteffanie.github.io/weather-report/',
+        github: 'https://github.com/lopezsteffanie/weather-report'
     }
 ]
 

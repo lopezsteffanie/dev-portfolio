@@ -3,8 +3,7 @@ const data = [
       id: 1,
       topic: "The early stages",
       p1: "My programming journey began as a child on online gaming forums, MySpace, and Tumblr. These online spaces provided an avenue for creativity and customization, and it was through them that I discovered my passion for programming.These platforms allowed users to personalize their profiles and express their individuality through custom themes and designs. I was fascinated by the ability to modify HTML and CSS codes to customize the appearance of my profile page. It was my first taste of programming, and I found joy in experimenting with different codes, tweaking layouts, and adding interactive elements.",
-      p2: "My journey with MySpace, Tumblr, and online forums provided a solid foundation for my programming career. It taught me the importance of continuous learning, experimentation, and community engagement. I became proficient in problem-solving as I encountered challenges and sought solutions. While MySpace and Tumblr may no longer dominate the social media landscape, the skills and experiences I gained from those platforms are still relevant today. They laid the groundwork for my passion for programming, leading me to pursue professional opportunities in the field.",
-      p3: ""
+      p2: "My journey with MySpace, Tumblr, and online forums provided a solid foundation for my programming career. It taught me the importance of continuous learning, experimentation, and community engagement. I became proficient in problem-solving as I encountered challenges and sought solutions. While MySpace and Tumblr may no longer dominate the social media landscape, the skills and experiences I gained from those platforms are still relevant today. They laid the groundwork for my passion for programming, leading me to pursue professional opportunities in the field."
     },
     {
       id: 2,
@@ -18,7 +17,6 @@ const data = [
       topic: "The pivot to tech",
       p1: "Motivated by this passion, I made a bold career change and transitioned from teaching to become a Software Development engineer. I pursued an education with Ada Developers Academy, a software engineering program that empowers women and gender-diverse individuals with comprehensive skills in full-stack development, empowering them for success in the tech industry.",
       p2: "As a part of this program, I am currently interning with Amazon, where I have thrived in this new environment, collaborating with talented professionals, tackling complex challenges, and continually expanding my knowledge and expertise. My background as a teacher has proven to be a valuable asset in my software development career. The experience of virtual teaching cultivated skills such as effective communication, adaptability, and user-centric thinking. These skills allow me to understand the end-users' needs and translate them into intuitive and impactful software solutions.",
-      p3: ""
     },
     {
       id: 4,
@@ -26,6 +24,13 @@ const data = [
       p1: "Looking back, I am grateful for the unconventional path that kick-started my programming journey. It taught me the value of self-directed learning, creativity, and the vibrant community that exists within the programming world. It reminds me that inspiration can be found in unexpected places, and that a curious and open mindset can lead to incredible discoveries and personal growth.",
       p2: "My journey from coding on platforms like MySpace and Tumblr, to teaching, and finally becoming a Software Development Engineer has been transformative. It exemplifies the power of curiosity, adaptability, and a growth mindset. It serves as a reminder that diverse experiences and passions can converge to pave new pathways and lead to unexpected and rewarding opportunities.",
       p3: "I am grateful for the chance to merge my early experiences in coding and customization with my teaching background, ultimately fueling my passion for software development and enabling me to create meaningful solutions that positively impact the lives of others."
+    },
+    {
+      id: 5,
+      topic: "Bonus: knitting and programming",
+      p1: "In my free time, I find great enjoyment in the art of knitting. The rhythmic motion of the needles, the tactile experience of the yarn, and the creative process of transforming strands of yarn into intricate patterns bring me a sense of relaxation and fulfillment. Interestingly, my passion for knitting also has a surprising connection to programming.",
+      p2: "Much like programming, knitting requires logical thinking, attention to detail, and a systematic approach. Just as a programmer meticulously crafts lines of code to build a functional application, a knitter carefully follows patterns and instructions to create a cohesive and aesthetically pleasing design. Both activities involve breaking down complex tasks into smaller, manageable steps and recognizing patterns to achieve the desired outcome.",
+      p3:"Moreover, knitting and programming share a commonality in problem-solving. When encountering an issue or a mistake in a knitting project, I approach it with a similar mindset as I would with debugging code. I analyze the problem, identify the root cause, and find a solution by making adjustments, unraveling stitches, or reworking sections, much like a programmer would troubleshoot and resolve a software bug."
     }
   ]
 

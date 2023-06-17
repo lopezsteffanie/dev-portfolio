@@ -25,6 +25,7 @@
 
 .card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;
+    height: 25rem;
 }
 
 @keyframes animateProject {
