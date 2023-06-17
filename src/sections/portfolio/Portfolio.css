@@ -43,18 +43,16 @@
     }
 }
 
-.portfolio__project-image {
+.portfolio__project-image img {
+    width: 100%;
+    height: fit-content;
     min-height: 7rem;
     max-height: 15rem;
     background: var(--color-light);
     border-radius: var(--border-radius-2);
     margin-bottom: 1.5rem;
     overflow: hidden;
-}
-
-.portfolio__project-image img {
-    width: 100%;
-    height: fit-content;
+    display: block;
 }
 
 .portfolio__projects p {
