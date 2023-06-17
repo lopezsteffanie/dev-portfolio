@@ -1,7 +1,6 @@
 import Card from '../../components/Card'
 import './Skills.css'
 import data from './data'
-import Marquee from 'react-fast-marquee'
 
 const Skills = () => {
     return (

@@ -1,8 +1,6 @@
 import AboutImage from '../../assets/about.png'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Steffanie_Lopez_Resume_2023.pdf'
 import {GrDocumentDownload} from 'react-icons/gr'
-import data from './data'
-import Card from '../../components/Card'
 import './About.css'
 import Journeys from '../journey/Journeys'
 
