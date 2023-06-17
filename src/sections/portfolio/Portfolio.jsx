@@ -26,7 +26,7 @@ const Portfolio = () => {
         <section id="portfolio">
         <h2>Recent Projects</h2>
         <p>
-        Check out some of the projects I recently worked on for my clients. Use the buttons to toggle the different categories.
+        As a dedicated full stack developer, I take pride in crafting innovative web solutions that seamlessly integrate front-end and back-end technologies. Within this portfolio, you will discover a carefully curated selection of my most recent projects, each representing the intersection of creativity, functionality, and technical expertise. From responsive designs to scalable architectures, these projects demonstrate my commitment to delivering exceptional digital experiences.
         </p>
         <div className="container portfolio__container">
             <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>
