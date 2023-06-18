@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <h2>My Skills</h2>
-            <p>In the ever-evolving landscape of web development, staying ahead requires a diverse and up-to-date skill set. My portfolio showcases a comprehensive array of skills and technologies that I have acquired and mastered throughout my journey as a web developer. From front-end to back-end, databases to deployment, I bring a wealth of expertise to the table.</p>
+            <p>In the ever-evolving landscape of web development, staying ahead requires a diverse and up-to-date skill set. From front-end to back-end, databases to deployment, I bring a wealth of expertise to the table.</p>
             <div className="container skills__container" data-aos='fade-up'>
                 {
                     data.map(item => (

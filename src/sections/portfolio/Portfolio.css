@@ -52,7 +52,11 @@
     border-radius: var(--border-radius-2);
     margin-bottom: 1.5rem;
     overflow: hidden;
-    display: block;
+}
+
+.portfolio__project-image img {
+    max-width: 100%;
+    height: fit-content;
 }
 
 .portfolio__projects p {
