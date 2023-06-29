@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.259a9c28.css",
+    "main.js": "/static/js/main.d2294d17.js",
+    "static/media/project3.png": "/static/media/project3.31f154594424660c4b19.png",
+    "static/media/project2.png": "/static/media/project2.7e6bb5bf5918a4de2dc1.png",
+    "static/media/header.png": "/static/media/header.3d1ae1e6cc56405503e0.png",
+    "static/media/project1.png": "/static/media/project1.052fb4f3c277c8018744.png",
+    "static/media/about.png": "/static/media/about.08d02c4bd98c5880d880.png",
+    "static/media/project4.png": "/static/media/project4.c5ba6395079c8834ad05.png",
+    "static/media/logo.png": "/static/media/logo.b81994ff6ff2457f1be7.png",
+    "static/media/Steffanie_Lopez_Resume_2023.pdf": "/static/media/Steffanie_Lopez_Resume_2023.be1b252bfe50c6035803.pdf",
+    "index.html": "/index.html",
+    "main.259a9c28.css.map": "/static/css/main.259a9c28.css.map",
+    "main.d2294d17.js.map": "/static/js/main.d2294d17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.259a9c28.css",
+    "static/js/main.d2294d17.js"
+  ]
+}
