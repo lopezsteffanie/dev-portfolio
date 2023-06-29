@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="about__right">
                     <Journeys className='about-journeys'/>
-                    <a href={CV} download className='btn primary'>Download CV <GrDocumentDownload /></a>
+                    <a href={CV} download className='btn primary'>Download Resume <GrDocumentDownload /></a>
                 </div>
             </div>
         </section>
