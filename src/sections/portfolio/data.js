@@ -2,6 +2,8 @@ import Image1 from '../../assets/project1.png'
 import Image2 from '../../assets/project2.png'
 import Image3 from '../../assets/project3.png'
 import Image4 from '../../assets/project4.png'
+import Image5 from '../../assets/project5.png'
+import Image6 from '../../assets/project6.png'
 
 const data = [
     {
@@ -39,6 +41,24 @@ const data = [
         desc: "A weather app using a location and weather API to display the weather in your city of choice",
         demo: 'https://lopezsteffanie.github.io/weather-report/',
         github: 'https://github.com/lopezsteffanie/weather-report'
+    },
+    {
+        id: 5,
+        category: 'fullstack',
+        image: Image5,
+        title: "Budget Tracker",
+        desc: "A budget tracker app that allows you to add and subtract expenses using Firebase for Authentication and Firestore for data storage",
+        demo: 'https://lopezsteffanie.github.io/budget-tracker/',
+        github: 'https://github.com/lopezsteffanie/budget-tracker'
+    },
+    {
+        id: 6,
+        category: 'fullstack',
+        image: Image6,
+        title: "Recipe Book",
+        desc: "A recipe book app that allows you to add and delete recipes using Firebase Firestore for data storage",
+        demo: "https://lopezsteffanie.github.io/recipe-book/",
+        github: "https://github.com/lopezsteffanie/recipe-book"
     }
 ]
 
