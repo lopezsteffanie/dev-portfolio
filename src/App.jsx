@@ -1,11 +1,9 @@
 import React from 'react';
 import NavBar from './sections/navbar/NavBar';
 import Header from './sections/header/Header';
-import About from './sections/about/About';
+import Journeys from './sections/journey/Journeys';
 import Skills from './sections/skills/Skills';
 import Portfolio from './sections/portfolio/Portfolio';
-// import Testimonials from './sections/testimonials/Testimonials';
-// import Journeys from './sections/journey/Journeys';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
@@ -53,11 +51,9 @@ const App = () => {
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <NavBar/>
         <Header/>
-        <About/>
+        <Journeys/>
         <Skills/>
         <Portfolio/>
-        {/* <Testimonials/> */}
-        {/* <Journeys/> */}
         <Contact/>
         <Footer/>
         <Theme/>

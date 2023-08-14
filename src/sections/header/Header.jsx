@@ -4,7 +4,8 @@ import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './Header.css'
-
+import CV from '../../assets/Steffanie_Lopez_Resume_2023.pdf'
+import {GrDocumentDownload} from 'react-icons/gr'
 const Header = () => {
     useEffect(() => {
         AOS.init({duration: 2000})
@@ -23,6 +24,9 @@ const Header = () => {
                 <div className="header__cta" data-aos='fade-up'>
                     <a href="#contact" className='btn primary'>Let's Talk</a>
                     <a href="#portfolio" className='btn light'>My Work</a>
+                </div>
+                <div className="header__cv">
+                    <a href={CV} download className='btn primary'>Download CV<GrDocumentDownload /></a>
                 </div>
                 <div className="header__socials">
                     {

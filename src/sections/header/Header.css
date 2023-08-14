@@ -7,6 +7,10 @@ header {
     transition: var(--transition);
 }
 
+.btn {
+    margin-bottom: 1rem;
+}
+
 .header__container {
     display: flex;
     flex-direction: column;
@@ -94,6 +98,7 @@ header {
 
     .header__cta {
         gap: 1rem;
+        margin-bottom: 10rem;
     }
 
     .header__socials {
